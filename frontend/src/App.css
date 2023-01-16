@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cars-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.cars-items {
+  width: 250px;
+  background-color: aqua;
+  border-radius: 16px;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+.cars-items h2 {
+  margin-top: 2rem;
+}
+
+.input-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.form-field {
+  margin: 0 auto;
+}
+
+input {
+  width: 250px;
+  height: 25px;
+}
+
+.form-field span {
+  font-size: 25px;
+}
+
+.button {
+  border-radius: 16px;
+  font-size: 16px;
+  padding: 16px;
+}
+
+.submit-button {
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: blue;
+}
+
+/* .loader-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.834) url("./images/car.gif") center no-repeat;
+  z-index: 1;
+} */
